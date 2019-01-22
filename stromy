@@ -1,0 +1,10 @@
+preorder — nejdřív aktuální uzel, pak oba podstromy (prefixová
+notace) abdecfg
+I inorder — levý podstrom, pak aktuální uzel, pak pravý podstrom
+(infixová notace) dbeafcg
+I postorder — nejdřív oba podstromy, pak aktuální uzel (postfixová
+notace) debfgca
+
+ Setříděné pole — vkládání O(n), vyhledávání O(log n)
+I Spojový seznam — vkládání O(1), vyhledávání O(n)
+I Vyhledávací strom — vkládání O(log n), vyhledávání O(log n)
