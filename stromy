@@ -8,3 +8,19 @@ notace) debfgca
  Setříděné pole — vkládání O(n), vyhledávání O(log n)
 I Spojový seznam — vkládání O(1), vyhledávání O(n)
 I Vyhledávací strom — vkládání O(log n), vyhledávání O(log n)
+
+sortovaci algo:
+bubble, insertion, selection (n^2)
+heap, merge, quicksort (n log n)
+
+
+pro všechny stromy platí, že hloubka:
+		h > log2(n + 1) − 1
+		
+Haldu lze sestrojit v čase O(n), odebrání nejmenšího prvku
+trvá O(log n).
+
+
+HASHTABLE
+Velmi rychlé operace vkládání a vyhledávání (v průměru O(1),
+nejhorší případ O(n)).
